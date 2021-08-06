@@ -1,0 +1,43 @@
+<!--pages/member/member.wxml-->
+<view class="member-container">
+  <view class="header-info">
+    <!--背景图片  -->
+    <image class="bg-wrapper" src='../../images/member_bg.png'></image>
+    <!--如果只是展示头像、昵称，可以使用<open-data/>组件  -->      
+    <open-data class="avatar" type="userAvatarUrl"></open-data>
+    <open-data class="nickname" type="userNickName"></open-data> 
+    <!--格言  -->
+    <view class="motto">累计消费： 1112元</view>
+  </view>
+
+  <!--我的订单  -->
+  <view class="my-order">
+    <view class="left">
+      <image class="icon-order" src="../../images/order.png"></image>
+      <text>我的订单</text>
+    </view>
+    <image class="icon-arrow" src="../../images/right_arrow.png"></image>
+  </view>
+  <form>时间: 2021-05-12
+    <view>可口可乐 数量：1</view>
+    <view>康师傅老坛酸菜牛肉面 数量：1</view>
+    <view>共消费： 7元</view>
+  </form>
+  <text>\n</text>
+  <text>\n</text>
+  <form>时间: 2021-05-31
+    <view>红富士苹果 数量：1</view>
+    <view>康师傅红烧牛肉牛肉面 数量：1</view>
+    <view>共消费： 8元</view>
+  </form>
+  <text>\n</text>
+  <text>\n</text>
+  <form>时间: 2021-06-04
+    <view>可口可乐 数量：1</view>
+    <view>康师傅老坛酸菜牛肉面 数量：1</view>
+    <view>农夫山泉 数量：1</view>
+    <view>剃须刀 数量：1</view>
+    <view>共消费： 1097元</view>
+  </form>
+  
+</view>
